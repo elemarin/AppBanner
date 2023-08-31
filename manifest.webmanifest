@@ -29,14 +29,5 @@
       "platform": "itunes",
       "id": "1461089073"
     }
-]
-}
-
-
-{
-  "name": "My App",
-  "short_name": "MA",
-  "start_url": ".",
-  "display": "standalone",
-  "icons": 
+  ]
 }
