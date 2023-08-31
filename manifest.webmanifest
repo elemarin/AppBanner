@@ -1,0 +1,27 @@
+{
+  "name": "NewHomeSource",
+  "short_name": "NewHomeSource",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "72x72 96x96 128x128 192x192 256x256 512x512"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.bdx.newhomesource"
+    },
+    {
+      "platform": "itunes",
+      "id": "1461089073"
+    }
+]
+}
