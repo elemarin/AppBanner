@@ -1,4 +1,4 @@
-import SmartBanner from 'smartbanner.js';
+import SmartBanner from './smartbanner';
 
 let opener = document.querySelector('[data-banner-opener]');
 let smartbanner = new SmartBanner();
