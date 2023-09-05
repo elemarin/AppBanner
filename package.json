@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "smartbanner.js": "^1.19.3"
-  }
+  },
+  "name": "appbanner",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elemarin/AppBanner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elemarin/AppBanner/issues"
+  },
+  "homepage": "https://github.com/elemarin/AppBanner#readme"
 }
