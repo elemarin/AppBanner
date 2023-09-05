@@ -1,5 +1,5 @@
-const btnAdd = document.getElementById('btnAdd');
-let deferredPrompt;
+// const btnAdd = document.getElementById('btnAdd');
+// let deferredPrompt;
 
 // window.addEventListener('beforeinstallprompt', (e) => {
 //   const text = document.querySelector('[data-text]');
@@ -15,3 +15,12 @@ let deferredPrompt;
 //   // Show the prompt
 //   deferredPrompt.prompt();
 // });
+
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+});
