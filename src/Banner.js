@@ -2,7 +2,7 @@ const btnAdd = document.getElementById('btnAdd');
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
-  const text = document.querySelector('.banner__text');
+  const text = document.querySelector('[data-text]');
   text.innerHTML = 'Add to home screen';
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
