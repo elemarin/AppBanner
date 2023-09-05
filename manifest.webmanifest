@@ -1,21 +1,35 @@
 {
   "name": "NewHomeSource",
   "short_name": "NewHomeSource",
-  "theme_color": "#fff",
-  "background_color": "#fff",
-  "display": "browser",
-  "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
   "icons": [
     {
       "src": "icons/icon.svg",
-      "sizes": "192x192",
+      "sizes": "36x36",
       "type": "image/svg"
     },
     {
       "src": "icons/icon.svg",
-      "sizes": "512x512",
+      "sizes": "48x48",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "72x72",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "96x96",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "144x144",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "192x192",
       "type": "image/svg"
     }
   ],
@@ -23,11 +37,14 @@
   "related_applications": [
     {
       "platform": "play",
-      "id": "com.bdx.newhomesource"
+      "id": "com.bdx.newhomesource",
+      "url": "https://play.google.com/store/apps/details?id=com.bdx.newhomesource"
     },
     {
       "platform": "itunes",
       "id": "1461089073"
     }
-  ]
+  ],
+  "start_url": ".",
+  "display": "standalone"
 }
