@@ -3,34 +3,34 @@
   "short_name": "NewHomeSource",
   "icons": [
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "36x36",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "48x48",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "72x72",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "96x96",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "144x144",
-      "type": "image/svg"
+      "type": "image/png"
     },
     {
-      "src": "icons/icon.svg",
+      "src": "https://beta-nhs-static.secure.footprint.net/globalresources14/default/images/icons/ios/apple-touch-icon-144x144-precomposed.png",
       "sizes": "192x192",
-      "type": "image/svg"
+      "type": "image/png"
     }
   ],
   "prefer_related_applications": true,
